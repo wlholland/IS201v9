@@ -1,0 +1,104 @@
+/* Remove conflicting styles */
+#new-page {
+    background-color: rgb(253, 253, 255);
+}
+
+#headerbannana {
+    color: black;
+}
+
+ul {
+    list-style-position: inside;
+}
+
+ol {
+    list-style-position: inside;
+}
+
+h1,
+h2 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+img,
+iframe {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 35%;
+}
+
+nav {
+    background-color: lightgrey;
+    padding: 10px;
+    overflow: hidden;
+}
+
+nav a {
+    float: center;
+    padding: 5px;
+    text-decoration: none;
+    color: #333;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: rgb(147, 156, 165);
+}
+
+.header {
+    background-color: black;
+    color: white;
+    height: 100px;
+    line-height: 100px;
+}
+
+.footer {
+    background-color: black;
+    height: 25px;
+    bottom: 0px;
+    position: fixed;
+    left: 5px;
+    right: 5px;
+    padding-top: 1px;
+    font-size: 10px;
+    color: white;
+}
+
+#navicenter {
+    text-align: center;
+}
+
+/* Updated styles for resume portion */
+#centeralign {
+    width: 80%;
+    margin: 0 auto;
+    text-align: middle;
+    padding-left: 50px;
+}
+
+#centeralign li {
+    max-width: 600px;
+    margin-bottom: 10px;
+}
+
+#centeralign ul {
+    padding-left: 20px;
+}
+
+#centeralign p {
+    margin: 0;
+    text-align: left;
+}
+
+#newcentersub1 {
+    margin: 0;
+    text-align: center;
+    margin-left: 40%;
+}
+
+#shiftcontainer {
+    margin-left: 5%;
+}
